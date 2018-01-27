@@ -1,0 +1,28 @@
+{
+  "name": "etherpup",
+  "version": "1.0.0",
+  "description": “TRAVEL Token",
+  "main": "index.js",
+  "scripts": {
+    "truffle": "truffle",
+    "testrpc": "testrpc --gasLimit 10000000 --account '0xeb321856e1c72fc0269a4a2fa7bbfd014e8d98d0ab840047c409a17924697c40,10000000000000000000000' --account '0xff00ace45ad53a9dbc3f8aefae585fbb5c23d6368e3137c2207c3e4b2218450f,10000000000000000000000' --account '0x9ebda864abd0d2684b97d12bb0a9deeaac9b2447a985cca5f3b8e8fe2811100d,10000000000000000000000' --account '0xa7129a064006b74386014ab37f68451ea81e82884d42ef10f7ec37c4d5854f94,10000000000000000000000' --account '0x07c6096c60b51461366172e301a1f11d01f80ce0d5daee3b123672735688b4a8,10000000000000000000000'  --account '0x060010dc86b98bee590adb8a648dfe0674388a0df1ae33924fa3d7b25a36787c,10000000000000000000000'  --account '0xe6b6491a4bb47f1d16108ca5dfdc2ac5afa13f8bbf866bdd87de7990ca05ae37,10000000000000000000000'  --account '0x93322d905a80a2a761e7f9907f691c9b6bfccb1d9a53eb6d0632a948b881858b,10000000000000000000000'  --account '0x27b9c23d162152df94fe0275020d0af2564f6e01305d2e7d2c2e75d20035c208,10000000000000000000000'  --account '0x24ae78ee44fc981538e6732c6c5c4868d3df02526a3977018e1267b6e5be93ef,10000000000000000000000'",
+    "test": "truffle test",
+    "deploy_local": "rm -rf build/ && truffle migrate --network development --reset --compile-all",
+    "deploy_rinkeby": "rm -rf build/ && truffle migrate --network rinkeby --compile-all",
+    "deploy_main": "rm -rf build/ && truffle migrate --network main --compile-all",
+    "build": "truffle compile"
+  },
+  "author": "tcoin",
+  "contributors": [],
+  "private": true,
+  "dependencies": {
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "babel-preset-stage-3": "^6.3.13",
+    "debug": "3.0.1",
+    "ethereumjs-testrpc": "6.0.1",
+    "truffle": "4.0.1",
+    "web3": "0.20.1"
+  }
+}
