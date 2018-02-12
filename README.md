@@ -10,7 +10,7 @@ http://travel.one
 
 ## White Paper
 
-Click [Here](http://travel.one/assets/wp/Travel_White%20Paper_20180127.pdf) to Read
+Click [Here](http://travel.one/assets/pdf/Travel_White%20Paper_cn.pdf) to Read
 
 
 
