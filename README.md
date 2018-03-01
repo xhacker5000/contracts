@@ -16,7 +16,7 @@ Click [Here](http://travel.one/assets/pdf/Travel_White%20Paper_en.pdf) to Read
 
 ## Verified Contract Address
 
-``0xEe4b7e6bC34A9f8069f910C6AC71dc294263EB26``
+``0x4432e7ffd729442614d9233499000530e08e9d62``
 
 You can see more detail on [etherscan](https://etherscan.io/address/0xEe4b7e6bC34A9f8069f910C6AC71dc294263EB26)
 
